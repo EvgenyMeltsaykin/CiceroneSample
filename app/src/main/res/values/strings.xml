@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CiceroneSample</string>
+
+    <string name="counter_fragment_count">Counter %d</string>
+    <string name="counter_fragment_flow_router">Flow router %s</string>
+    <string name="counter_fragment_main_router">Main router %s</string>
+    <string name="counter_fragment_save_counter">Save counter</string>
+    <string name="counter_fragment_saved_counter">Saved counter %d</string>
+    <string name="counter_fragment_counter_repository">Counter repository %s</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="replace">Replace</string>
+    <string name="next_flow">Next flow</string>
+    <string name="close_flow">Close flow</string>
+
+    <string name="tab_name_1">Tab flow 1</string>
+    <string name="tab_name_2">Tab flow 2</string>
+    <string name="tab_name_3">Tab flow 3</string>
+</resources>

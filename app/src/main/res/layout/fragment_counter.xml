@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".features.counter.CounterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Count 1" />
+
+        <TextView
+            android:id="@+id/tv_saved_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Count 1" />
+
+        <TextView
+            android:id="@+id/tv_flow_router"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Flow router" />
+
+        <TextView
+            android:id="@+id/tv_main_router"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Main router" />
+
+        <TextView
+            android:id="@+id/tv_counter_repository"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Counter repository" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_save_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/counter_fragment_save_counter" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/btn_replace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/replace" />
+
+            <Button
+                android:id="@+id/btn_next_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_flow" />
+
+            <Button
+                android:id="@+id/btn_close_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/close_flow" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
